@@ -1,0 +1,156 @@
+body {
+  background-color: #f8f8f8;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  text-transform: none;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+#main-header {
+  padding: 0 15px 0 15px;
+  /*font-family: Monaco, Consolas, Ubuntu Mono, monospace;*/
+  text-transform: none;
+  background-color: yellowgreen;
+  font-size: 15px;
+  border-bottom: 1px solid #4bbf73;
+}
+
+#shop-brand {
+  font-size: 1.8rem;
+}
+
+#shop-brand {
+  text-transform: none;
+  color: #3ca861;
+  font-weight: 800;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+#shop-brand:hover {
+  color: yellowgreen;
+  /*background-color: #4bbf73;*/
+}
+
+#recently-added {
+  background: linear-gradient(
+    to right,
+    #f4fabe 70%,
+    #e9f577 70%,
+    #e9f577 90%,
+    #c9e43b 90%
+  );
+  color: #364f03;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+#cart-image {
+  width: 100%;
+  height: 15vh;
+  object-fit: contain;
+}
+
+#order-image {
+  width: 100%;
+  height: 7.5vh;
+  object-fit: contain;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: contain;
+}
+
+#profile-picture {
+  object-fit: fill;
+  height: 30vh;
+}
+
+#profile-picture-product {
+  width: 30%;
+  height: 5vh;
+  object-fit: fill;
+  margin-left: 20px;
+}
+
+#product:hover {
+  background-color: yellowgreen;
+}
+
+#search-box {
+  width: 60vh;
+  border: 2px solid #4bbf73;
+}
+
+#search-box-btn {
+  height: 45px;
+  margin-top: 16px;
+  margin-left: 5px;
+}
+
+#username,
+#user-credits,
+#cart,
+#admin-menu,
+#sign-in-menu,
+#search-box-btn {
+  color: black;
+}
+
+#user-credits {
+  padding: 0.715rem 0.5rem;
+}
+
+#username:hover,
+#cart:hover,
+#admin-menu:hover,
+#sign-in-menu:hover,
+#search-box-btn:hover {
+  color: white;
+}
+
+.page-item {
+  padding: 1px;
+}
+
+.page-item.active .page-link {
+  background-color: #4bbf73;
+  color: black;
+  border-radius: 7px;
+}
+
+.page-item.active .page-link:hover {
+  background-color: #4bbf73;
+}
+
+.page-link:hover {
+  background-color: greenyellow;
+  border-color: black;
+  border-radius: 7px;
+}
+
+.dropdown-menu {
+  min-width: auto;
+}
+
+.form-control:focus {
+  border-color: #4bbf73;
+  box-shadow: inset 0 1px 1px #4bbf73, 0 0 8px #4bbf73;
+}
